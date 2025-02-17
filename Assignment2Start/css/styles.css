@@ -1,0 +1,58 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    transition: background-color 0.5s ease;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:nth-of-type(1) {
+    background-color: #007BFF;
+    color: white;
+}
+
+button:nth-of-type(2) {
+    background-color: #28A745;
+    color: white;
+}
+
+/* Select Dropdown */
+select {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Student ID Text */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}
